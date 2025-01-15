@@ -1,0 +1,59 @@
+:root {
+    --biografia-black: #111111; 
+    --biografia-dark-blue: #1a2637; 
+    --biografia-red: #e74c3c; 
+    --biografia-light-gray: #7f8c8d; 
+    --biografia-dark-blue-title: #3a4e68; 
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    background-color: var(--biografia-black); 
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--biografia-dark-blue); 
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.76);
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--biografia-dark-blue-title); 
+}
+
+.navbar {
+    background-color: var(--biografia-dark-blue); 
+    border-bottom: 3px solid var(--biografia-red);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: var(--biografia-red) !important; 
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--biografia-red) !important;
+}
+
+footer {
+    background-color: var(--biografia-dark-blue); 
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1rem;
+}
