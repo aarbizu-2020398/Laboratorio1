@@ -1,0 +1,119 @@
+:root {
+    --batman-black: #111111; 
+    --batman-dark-blue: #1a2637; 
+    --batman-red: #e74c3c; 
+    --batman-light-gray: #7f8c8d; 
+    --batman-dark-blue-title: #3a4e68; 
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    background-color: var(--batman-black); 
+    color: white;
+}
+
+header {
+    background-color: var(--batman-dark-blue); 
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.76);
+}
+
+header h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--batman-dark-blue-title); 
+}
+
+header p {
+    font-size: 1.25rem;
+    font-style: italic;
+    color: var(--batman-red);
+}
+
+.navbar {
+    background-color: var(--batman-dark-blue); 
+    border-bottom: 3px solid var(--batman-red);
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    color: var(--batman-red) !important; 
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #f8f9fa !important; 
+    font-size: 1.1rem;
+}
+
+.nav-link:hover {
+    color: var(--batman-red) !important; 
+}
+
+ul {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+ul li {
+    background: var(--batman-dark-blue); 
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+ul li:hover {
+    transform: translateX(10px);
+    background-color: var(--batman-red); 
+    color: white;
+}
+
+ul li i {
+    margin-right: 15px;
+    color: #3498db; 
+    font-size: 1.5rem;
+}
+
+.btn-warning {
+    background-color: var(--batman-red); 
+    color: white;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.btn-warning:hover {
+    background-color: var(--batman-black); 
+    color: var(--batman-red); 
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: var(--batman-dark-blue); 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+    .nav-link {
+        font-size: 1rem;
+    }
+    .list-unstyled li {
+        font-size: 1.1rem;
+    }
+}
