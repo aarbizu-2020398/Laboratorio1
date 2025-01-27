@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #1a2637, #3a4e68);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.25rem;
+}
+
+.btn-primary {
+    background-color: #3a4e68;
+    border-color: #3a4e68;
+}
+
+.btn-primary:hover {
+    background-color: #1a2637;
+    border-color: #1a2637;
+}
+
+footer {
+    background-color: #1a2637;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+}
