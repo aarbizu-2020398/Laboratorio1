@@ -5,41 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biografía</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="biografia-style.css">
 </head>
 <body>
 
-
-    <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <h1>Biografía</h1>
-        </div>
-    </header>
-
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-            <a class="navbar-brand" href="/index.html">Laboratorio</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="/index.html">Inicio</a>
+                        <a class="nav-link" href="/index.html">
+                            <i class="fas fa-home"></i> Inicio
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/pagina1/gustos.html">Gustos</a>
+                        <a class="nav-link" href="/pagina1/gustos.html">
+                            <i class="fas fa-heart"></i> Gustos
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/pagina2/biografia.html">Biografía</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/pagina3/paginaweb.html">Página Web</a>
+                        <a class="nav-link" href="/pagina3/paginaweb.html">
+                            <i class="fas fa-globe"></i> Página Web
+                        </a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
 
     <main class="container my-5">
         <section id="biografia">
@@ -62,12 +59,38 @@
                 </div>
             </div>
         </section>
-    </main>
+        <main class="container my-5">
+            <section id="biografia">
+                <div class="text-center mb-4">
+                    <img src="/pagina2/assets/image/imagen-biografia.jpeg" alt="Foto de Adrián Alessandro Arbizú" class="img-fluid rounded" style="max-width: 400px; height: auto;">
+                </div>
+                <div class="card bg-dark text-light mb-4">
+                    <div class="card-body">
+                        <h2 class="card-title">Información Personal</h2>
+                        <p class="lead mb-0">Mi nombre es Adrián Alessandro Arbizú del Cid, actualmente tengo 18 años.</p>
+                    </div>
+                </div>
+                <div class="card bg-dark text-light mb-4">
+                    <div class="card-body">
+                        <h2 class="card-title">Estudios</h2>
+                        <p class="lead mb-0">Estoy estudiando en el Centro Educativo Técnico Laboral Kinal, actualmente estoy en la carrera de Perito en Informática y estoy en el último año de carrera.</p>
+                    </div>
+                </div>
+                <div class="card bg-dark text-light">
+                    <div class="card-body">
+                        <h2 class="card-title">Propósito</h2>
+                        <p class="lead mb-0">Mi propósito para este año es lograr graduarme del colegio, poder hacer prácticas en una empresa y dar una buena imagen y buen aspecto de lo que se ha forjado en el colegio.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
 
-
-    <footer>
-        <p>&copy; 2025 Laboratorio. Todos los derechos reservados.</p>
+    <img src="" alt="">
+    <footer class="bg-dark text-light py-3 text-center">
+        <p>&copy; 2025 Mi Página Personal. Todos los derechos reservados.</p>
     </footer>
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
